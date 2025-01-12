@@ -1,0 +1,750 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #249afc; /* Optional light blue background */
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    font-family: "Nanum Pen Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo-container img{
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);
+
+
+  }
+  
+  .logo-new {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .brand-name {
+    font-size: 28px;
+    font-family: "Chewy", serif;
+    font-weight: bold;
+    background-color: transparent;
+    letter-spacing: 2px;
+
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #007bff; /* Optional hover color */
+  }
+  
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-buttons a{
+    background-color: white;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px;
+    color: black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);
+
+  }
+
+  .buy-btn {
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .close-btn:hover {
+    background-color: #ffcccc;
+  }
+  
+  .telegram-btn:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .buy-btn {
+    background-color: #32cd32;
+    color: black;
+  }
+  
+  .buy-btn:hover {
+    background-color: #28a428;
+  }
+
+  .container {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+}
+
+.container .image-container{
+  margin-top: 100px;
+  height: 600px;
+  justify-content: center;
+  width: 520px;
+  padding: 8px;
+  background-color: transparent;
+  border-radius: 150px;
+  border: 3px solid  #32cd32;
+
+}
+
+.container .main-image{
+    width: 520px;
+    border-radius: 140px;
+    height: 600px;
+}
+
+.bdog-title {
+    font-size: 10rem;
+    font-weight: bold;
+    font-family: "Chewy", serif;
+    color: #249afc; /* Neon green */
+    text-shadow: 5px 5px 5px #f4faf4, 10px 10px 0 #32cd32;
+    margin-bottom: 10px;
+    -webkit-text-stroke:5px #e6e6e6;
+    
+}
+
+
+
+.description {
+    font-size: 2rem;
+    font-family: "Chewy", serif;
+    color: white;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    text-align:left;
+    font-weight: 100;
+}
+
+.container .hero-section{
+  display: grid;
+  justify-content: left;
+}
+.join-button {
+    background-color: #39FF33; /* Neon green */
+    justify-content: left;
+    align-items:start;
+    height: 60px;
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px #000;
+    transition: transform 0.2s;
+}
+
+.join-button:hover {
+    transform: scale(1.05);
+}
+
+.trusted-by {
+    margin-top: 20px;
+}
+
+.trusted-by p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.trusted-by img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.bdog-image {
+    display: inline-block;
+    width: 250px; /* Adjust image size */
+    margin-bottom: 10px;
+}
+
+.scrolling-banner {
+  padding-top: 10px;
+  position: absolute;
+  font-family: "Nanum Pen Script", serif;
+  font-size: 30px;
+  top:800px;
+  max-width: 100%;
+  height: 40px;
+  overflow: hidden;
+  background-color: #39FF33; /* Dark background for the banner */
+  border-top:2px solid #000;
+  border-bottom:2px solid #000;
+  margin-top: 50px;
+
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  animation: scroll 20s linear infinite; /* Smooth scrolling animation */
+}
+
+.logo {
+  padding: 0 30px;
+  font-weight: bold;
+  color: white;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+
+
+ /* Keyframes for scrolling effect */
+ @keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+.about-section {
+  margin: 150px 450px;
+  max-width: 2500px;
+  padding: 20px;
+  background-color: #C9F2FF; /* Light cyan */
+  border: 3px solid #000;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  gap: 200px;
+  font-family: "Knewave", serif;
+  align-items: center;
+  border-bottom: 5px solid #000;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 3px 3px 0 #fff;
+  margin: 0;
+}
+
+.thelogo{
+  display: flex;
+}
+
+.socials{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.socials a{
+  background-color: white;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 9px;
+  color: black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);
+
+}
+
+.header img {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.logo-new h2{
+  text-align: center;
+}
+
+.content {
+  margin-top: 20px;
+  font-family: "Patrick Hand SC", serif;
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
+.ffl {
+  margin-top: 30px;
+  position: relative;
+}
+
+.ffl-background {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #0077B6; /* Blue */
+  color: #fff;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.frog-image {
+  position: absolute;
+  bottom: -50px;
+  right: 30px;
+}
+
+.frog-image img {
+  width: 150px;
+  height: auto;
+}
+
+.landwolf-pack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.why-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  padding: 20px;
+  border-radius: 10px;
+  background: none;
+  background-color: transparent;
+  gap: 50px;
+
+}
+
+.why-content {
+  max-width: 600px;
+  
+}
+
+.why-title {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Knewave", serif;
+  margin-bottom: 20px;
+  color: white;
+  -webkit-text-stroke:2px #0077B6;
+
+}
+
+.why-description  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+}
+
+.why-details {
+  list-style: none;
+  padding: 0;
+  font-size: 1.5rem;
+  text-align: left;
+  color: white;
+}
+
+.why-details li {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 4px solid #39FF33;
+  font-family: "Patrick Hand SC", serif;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.image img {
+  margin-top: 200px;
+  width: 250px;
+  height: 280px;
+  border-radius: 60px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tokenomics-section {
+  padding: 20px 20px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.tokenomics-section .token-container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #C9F2FF;
+  border: 3px solid #000;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+
+.tokenomics-title {
+  font-family: "Knewave", serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.tokenomics-description {  
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  font-family: "Patrick Hand SC", serif;
+
+}
+
+.tokenomics-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #000;
+}
+
+
+.tokenomics-details {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.tokenomics-details li {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 4px solid #59b4f1;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.launch-info {
+  text-align: center;
+  padding: 20px;
+  padding: 50px 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.launch-info h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff; 
+}
+
+.launch-info p {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Knewave", serif;
+
+
+}
+
+.dexscreener-btn {
+  background-color: #39FF33; /* Neon green */
+    justify-content: left;
+    align-items:start;
+    height: 60px;
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px #000;
+    transition: transform 0.2s;
+}
+
+.dexscreener-btn:hover {
+  transform: scale(1.05);
+}
+.footer {
+  padding: 15px 10px;
+}
+
+.footer-container p {
+  font-size: 1.2rem; /* Slightly smaller font size for mobile */
+  line-height: 1.4;
+  color: white;
+  text-align: center;
+  font-family: "Patrick Hand SC", serif;
+
+}
+
+.footer-container span {
+  font-size: 1rem; /* Ensure the highlight remains prominent */
+}
+
+
+/* Add styles for mobile responsiveness */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .navbar {
+    text-align: center;
+    padding: 10px;
+    max-width: 380px;
+  }
+
+  .navbar .brand-name{
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .nav-buttons a{
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+ .container .image-container{
+  display: none;
+ }
+
+ .scrolling-banner{
+  display: none;
+ }
+  .bdog-title {
+    font-size: 4rem; /* Adjusted for smaller screens */
+    margin-bottom: 15px;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    max-width: 100%;
+  }
+
+  .about-section {
+    margin: 50px 20px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .why-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .why-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .why-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .why-details {
+    font-size: 1rem;
+  }
+
+  .why-details li {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .tokenomics-section .token-container {
+    padding: 20px;
+  }
+
+  .tokenomics-title {
+    font-size: 2rem;
+  }
+
+  .tokenomics-description {
+    font-size: 1.2rem;
+  }
+
+  .tokenomics-details li {
+    font-size: 1rem;
+  }
+
+  .launch-info p {
+    font-size: 1.8rem;
+  }
+
+  .scrolling-banner {
+    font-size: 1rem;
+    height: auto;
+  }
+
+  .join-button, .dexscreener-btn {
+    font-size: 1rem;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 15px;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+
+  .footer-container p {
+    font-size: 0.9rem;
+  }
+
+  .bdog-image {
+    width: 150px;
+  }
+}
+
+/* Adjustments for smaller devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 5px;
+  }
+
+  .logo-container img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .bdog-title {
+    font-size: 3rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+
+  .join-button, .dexscreener-btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    height: 40px;
+  }
+
+  .tokenomics-title {
+    font-size: 1.5rem;
+  }
+
+  .tokenomics-description {
+    font-size: 1rem;
+  }
+
+  .why-title {
+    font-size: 1.5rem;
+  }
+
+  .why-details li {
+    font-size: 0.9rem;
+  }
+
+  .footer-container p {
+    font-size: 0.8rem;
+  }
+
+  .scrolling-banner {
+    font-size: 0.8rem;
+  }
+
+  .header img {
+    width: 50px;
+  }
+
+  .container .image-container {
+    border-radius: 10px;
+  }
+}
