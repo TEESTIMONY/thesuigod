@@ -610,6 +610,10 @@ body {
     border-radius: 10px;
   }
 
+.content {
+    font-size: 1.5rem;
+  }
+
   .header {
     flex-direction: column;
     gap: 20px;
@@ -622,8 +626,12 @@ body {
 
   .why-container {
     flex-direction: column;
-    gap: 20px;
     padding: 10px;
+    margin-top: 400px;
+  }
+
+  .image img{
+    margin-top: 0;
   }
 
   .why-content {
@@ -632,7 +640,7 @@ body {
   }
 
   .why-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
   }
 
@@ -715,21 +723,25 @@ body {
     padding: 8px 15px;
     height: 40px;
   }
-
+  .tokenomics-section{
+    margin-top: 400px;
+  }
   .tokenomics-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .tokenomics-description {
-    font-size: 1rem;
-  }
-
-  .why-title {
     font-size: 1.5rem;
   }
 
+  .thelogo img{
+    width: 100%;
+    height: 100%;
+  }
+
+
   .why-details li {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
   .footer-container p {
